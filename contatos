@@ -1,0 +1,118 @@
+<!DOCTYPE html><html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>O Mago da Net - Contato</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }body {
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  color: #f0f0f0;
+}
+
+header {
+  background-color: #1e1e1e;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.5);
+}
+
+nav a {
+  color: #f0f0f0;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #00bcd4;
+}
+
+main {
+  padding: 40px 20px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input, textarea {
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  background-color: #1e1e1e;
+  color: #f0f0f0;
+}
+
+button {
+  background-color: #00bcd4;
+  color: #121212;
+  border: none;
+  padding: 12px;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0097a7;
+}
+
+.social {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.social a {
+  color: #00bcd4;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+footer {
+  background-color: #1e1e1e;
+  text-align: center;
+  padding: 15px;
+  color: #888;
+  margin-top: 40px;
+}
+
+  </style>
+</head>
+<body>
+  <header>
+    <h1>O Mago da Net</h1>
+    <nav>
+      <a href="index.html">Início</a>
+      <a href="musicas.html">Músicas</a>
+      <a href="marketing.html">Marketing Digital</a>
+      <a href="loja.html">Loja</a>
+      <a href="contato.html">Contato</a>
+    </nav>
+  </header>  <main>
+    <h2>Fale com o Mago</h2>
+    <form>
+      <input type="text" name="nome" placeholder="Seu nome" required>
+      <input type="email" name="email" placeholder="Seu email" required>
+      <textarea name="mensagem" rows="5" placeholder="Sua mensagem" required></textarea>
+      <button type="submit">Enviar</button>
+    </form><div class="social">
+  <p>Ou fale comigo pelas redes sociais:</p>
+  <a href="#">Instagram</a>
+  <a href="#">WhatsApp</a>
+  <a href="#">YouTube</a>
+</div>
+
+  </main>  <footer>
+    <p>&copy; 2025 O Mago da Net. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
